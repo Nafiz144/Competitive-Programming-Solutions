@@ -9,16 +9,16 @@ void solve()
     string s;
     cin >> s;
 
-    int ans = 0;
+    int an = 0;
     for (int i = 0; i < n; i++)
     {
         if (s[i] == '0')
-            ans++;
+            an++;
         else
-            ans += n - 1;
+            an += n - 1;
     }
 
-    cout << ans << '\n';
+    cout << an << '\n';
 }
 
 int main()
